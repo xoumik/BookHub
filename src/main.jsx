@@ -4,11 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
+import { AppProvider } from "./context";
 import BookList from "./Components/BookList/BookList";
 import BookDetails from "./Components/BookDetails/BookDetails";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <AppProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
@@ -18,5 +19,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </AppProvider>
 );
