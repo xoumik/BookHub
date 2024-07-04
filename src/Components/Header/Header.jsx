@@ -13,9 +13,11 @@ const Header = () => {
           </h2>
           <br />
           <p className="header-text fs-18 fw-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae
-            sapiente quibusdam consequatur perspiciatis facere laboriosam non
-            nesciunt at id repudiandae, modi iste? Eligendi, rerum!
+            Reading books offers a multitude of benefits, from expanding
+            knowledge and enhancing vocabulary to stimulating imagination and
+            reducing stress. It fosters empathy by exposing us to diverse
+            perspectives and cultures, making it a powerful tool for personal
+            growth and understanding the world around us.
           </p>
           <SearchForm />
         </div>
